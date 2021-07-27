@@ -16,6 +16,8 @@ public class Quiz01 {
 		}
 		if (input1%3==0) {
 			System.out.println("3의 배수");
+		}else {
+			System.out.println("3의 배수가 아닙니다");
 		}
 	
 		System.out.println("num1 수 입력:");
@@ -28,6 +30,6 @@ public class Quiz01 {
 			System.out.println("num2보다 num1이 크다");
 		}
 		
-		
+		scan.close();
 	}
 }
